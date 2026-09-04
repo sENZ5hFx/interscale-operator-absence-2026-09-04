@@ -1,0 +1,363 @@
+{
+  "session_id": "2026-09-04-ioa-interscale",
+  "timestamp": "2026-09-04T17:44:45Z",
+  "author": "Haley Bird (Fishers, IN) / autonomous Grok research agent",
+  "class": "Interscale-Operator Absence Class (IOA)",
+  "prior_classes_not_reclaimed": [
+    "Dark Biosphere Hypothesis 2026-05-14",
+    "Cosmic-Bio Resonance 2026-05-14",
+    "Undersampling 2026-08-03",
+    "Deep-biosphere-as-space-prior 2026-08-14",
+    "Ritual Nyquist Law 2026-08-27",
+    "Transducer-Absence Class (TAC) 2026-08-28",
+    "Cadence Mismatch Class 2026-08-29",
+    "Named-Cause Residual / Initiation\u2013Maintenance Split (NCR/IM) 2026-08-30",
+    "Failed-Adjudication Class (FAC) 2026-08-31",
+    "Clock-Incommensurability Class (CIC) 2026-09-01",
+    "Join-Absence Class (JAC) 2026-09-02"
+  ],
+  "claim_hygiene": "research-stage classification; not a physical discovery; not peer review; not a patent; scores are a heuristic not measurements of nature",
+  "validation_errors": [],
+  "pass1_primary": {
+    "id": "L01",
+    "remain": 55.0,
+    "name": "Wood-wide web: hyphal flux \u2192 forest 'communication'"
+  },
+  "pass2_primary": {
+    "id": "L01",
+    "remain": 55.0,
+    "name": "Wood-wide web: hyphal flux \u2192 forest 'communication'",
+    "realm": "land",
+    "kind": "same_system"
+  },
+  "iteration_note": "pass1 can inflate identity-import via huge log-sep. pass2 caps identity_import at 40, lab_to_field at 45, zeros overlap\u22650.85, and dual-scale occupancy kills QG\u2192H0 and any unmeasured scale B.",
+  "ranked": [
+    {
+      "remain": 55.0,
+      "raw": 80.0,
+      "overlap": 0.12,
+      "kind": "same_system",
+      "status": "STRUCTURAL_GAP",
+      "realm": "land",
+      "id": "L01",
+      "name": "Wood-wide web: hyphal flux \u2192 forest 'communication'",
+      "kills": []
+    },
+    {
+      "remain": 40.0,
+      "raw": 160.0,
+      "overlap": 0.38,
+      "kind": "identity_import",
+      "status": "STRUCTURAL_GAP",
+      "realm": "space",
+      "id": "L02",
+      "name": "Biosignature identity-import: Earth-DMS-from-life \u2192 K2-18b-DMS-as-life",
+      "kills": [
+        "kind cap identity_import=40.0"
+      ]
+    },
+    {
+      "remain": 33.6,
+      "raw": 120.0,
+      "overlap": 0.72,
+      "kind": "lab_to_field",
+      "status": "PENALIZED_OVERLAP",
+      "realm": "animals",
+      "id": "L03",
+      "name": "Cryptochrome in-vitro spin yield \u2192 in-flight heading",
+      "kills": []
+    },
+    {
+      "remain": 26.6,
+      "raw": 70.0,
+      "overlap": 0.62,
+      "kind": "same_system",
+      "status": "PENALIZED_OVERLAP",
+      "realm": "land",
+      "id": "L07",
+      "name": "Soil prokaryote gene catalog \u2192 ecosystem function",
+      "kills": []
+    },
+    {
+      "remain": 20.79,
+      "raw": 49.5,
+      "overlap": 0.58,
+      "kind": "identity_import",
+      "status": "PENALIZED_OVERLAP",
+      "realm": "earth",
+      "id": "L06",
+      "name": "Crustal / radiolytic O2 concentration \u2192 ancestral aerobic metabolism",
+      "kills": []
+    },
+    {
+      "remain": 12.32,
+      "raw": 38.5,
+      "overlap": 0.68,
+      "kind": "lab_to_field",
+      "status": "PENALIZED_OVERLAP",
+      "realm": "humans",
+      "id": "L05",
+      "name": "AlphaFold static coordinates \u2192 organismal phenotype",
+      "kills": []
+    },
+    {
+      "remain": 6.6,
+      "raw": 33.0,
+      "overlap": 0.8,
+      "kind": "same_system",
+      "status": "PENALIZED_OVERLAP",
+      "realm": "ocean",
+      "id": "L08",
+      "name": "Hadal 16S/MAG \u2192 hadal ecosystem function",
+      "kills": []
+    },
+    {
+      "remain": 0.0,
+      "raw": 0.0,
+      "overlap": 0.6,
+      "kind": "same_system",
+      "status": "KILLED",
+      "realm": "ocean",
+      "id": "L04",
+      "name": "Mesopelagic acoustic backscatter \u2192 climate carbon residual",
+      "kills": [
+        "A\u2192B transfer function is already the object of published work"
+      ]
+    },
+    {
+      "remain": 0.0,
+      "raw": 50.0,
+      "overlap": 0.9,
+      "kind": "same_system",
+      "status": "ZEROED",
+      "realm": "humans",
+      "id": "L09",
+      "name": "Noncoding assay 'function' \u2192 organismal fitness function",
+      "kills": [
+        "overlap\u22650.85 treated as reclaim"
+      ]
+    },
+    {
+      "remain": 0.0,
+      "raw": 0.0,
+      "overlap": 0.85,
+      "kind": "same_system",
+      "status": "ZEROED",
+      "realm": "animals",
+      "id": "L10",
+      "name": "Morphological species \u2192 cryptic genomic complex",
+      "kills": [
+        "A\u2192B transfer function is already the object of published work",
+        "overlap\u22650.85 treated as reclaim"
+      ]
+    },
+    {
+      "remain": 0.0,
+      "raw": 0.0,
+      "overlap": 1.0,
+      "kind": "same_system",
+      "status": "ZEROED",
+      "realm": "space",
+      "id": "Z01",
+      "name": "Hubble tension identity",
+      "kills": [
+        "FAC 2026-08-31 owns JWST-as-failed-settler; TAC/NCR retain"
+      ]
+    },
+    {
+      "remain": 0.0,
+      "raw": 0.0,
+      "overlap": 1.0,
+      "kind": "same_system",
+      "status": "ZEROED",
+      "realm": "space",
+      "id": "Z02",
+      "name": "Dark matter / dark energy identity",
+      "kills": [
+        "TAC owns missing converter named 'dark'"
+      ]
+    },
+    {
+      "remain": 0.0,
+      "raw": 0.0,
+      "overlap": 1.0,
+      "kind": "same_system",
+      "status": "ZEROED",
+      "realm": "animals",
+      "id": "Z03",
+      "name": "Magnetoreceptor cell",
+      "kills": [
+        "TAC owns the missing cell; JAC owns INTERMAGNET\u22c8Movebank"
+      ]
+    },
+    {
+      "remain": 0.0,
+      "raw": 0.0,
+      "overlap": 1.0,
+      "kind": "same_system",
+      "status": "ZEROED",
+      "realm": "earth",
+      "id": "Z04",
+      "name": "Inner-core state / rotation sign",
+      "kills": [
+        "NCR owns inner-core state; CIC zeroed; JAC uses epochs as join key"
+      ]
+    },
+    {
+      "remain": 0.0,
+      "raw": 0.0,
+      "overlap": 1.0,
+      "kind": "same_system",
+      "status": "ZEROED",
+      "realm": "ocean",
+      "id": "Z05",
+      "name": "Nodule dark oxygen electrolysis",
+      "kills": [
+        "FAC+TAC; Editor's Note 8 Apr 2026; do not load-bear"
+      ]
+    },
+    {
+      "remain": 0.0,
+      "raw": 0.0,
+      "overlap": 1.0,
+      "kind": "same_system",
+      "status": "ZEROED",
+      "realm": "land",
+      "id": "Z06",
+      "name": "Omnitrophota uncultured",
+      "kills": [
+        "TAC owns the missing lab converter"
+      ]
+    },
+    {
+      "remain": 0.0,
+      "raw": 0.0,
+      "overlap": 1.0,
+      "kind": "same_system",
+      "status": "ZEROED",
+      "realm": "ocean",
+      "id": "Z07",
+      "name": "Seafloor mapped vs seen",
+      "kills": [
+        "Undersampling 2026-08-03; CIC control"
+      ]
+    },
+    {
+      "remain": 0.0,
+      "raw": 0.0,
+      "overlap": 1.0,
+      "kind": "same_system",
+      "status": "ZEROED",
+      "realm": "cross",
+      "id": "Z08",
+      "name": "Geodynamo \u22c8 magnetoreception join",
+      "kills": [
+        "JAC 2026-09-02 primary remaining surface"
+      ]
+    },
+    {
+      "remain": 0.0,
+      "raw": 0.0,
+      "overlap": 1.0,
+      "kind": "same_system",
+      "status": "ZEROED",
+      "realm": "humans",
+      "id": "Z09",
+      "name": "UPE / biophotons as communication",
+      "kills": [
+        "JAC kill 5: communication unproved; death-fade = metabolism"
+      ]
+    },
+    {
+      "remain": 0.0,
+      "raw": 0.0,
+      "overlap": 1.0,
+      "kind": "same_system",
+      "status": "ZEROED",
+      "realm": "space",
+      "id": "Z10",
+      "name": "Little red dots as named class",
+      "kills": [
+        "CIC owns phase-object collapse; FAC owns three-camp split"
+      ]
+    },
+    {
+      "remain": 0.0,
+      "raw": 0.0,
+      "overlap": 1.0,
+      "kind": "same_system",
+      "status": "ZEROED",
+      "realm": "animals",
+      "id": "Z11",
+      "name": "Insect dark taxa LOC",
+      "kills": [
+        "CIC owns loss-outruns-catalog"
+      ]
+    },
+    {
+      "remain": 0.0,
+      "raw": 0.0,
+      "overlap": 1.0,
+      "kind": "same_system",
+      "status": "ZEROED",
+      "realm": "cross",
+      "id": "Z12",
+      "name": "Universal dark-fraction coincidence",
+      "kills": [
+        "JAC kill 1: category error, not a law of nature"
+      ]
+    },
+    {
+      "remain": 0.0,
+      "raw": 0.0,
+      "overlap": 0.95,
+      "kind": "same_system",
+      "status": "ZEROED",
+      "realm": "humans",
+      "id": "Z13",
+      "name": "Consciousness / hard problem",
+      "kills": [
+        "Archive refused: spoken, NCR/IM, holographic-brain family"
+      ]
+    },
+    {
+      "remain": 0.0,
+      "raw": 0.0,
+      "overlap": 0.5,
+      "kind": "identity_import",
+      "status": "KILLED",
+      "realm": "space",
+      "id": "Z14",
+      "name": "Planck-scale QG as solution to H0",
+      "kills": [
+        "dual-scale occupancy failed: scale B (or A) is not empirically documented"
+      ]
+    }
+  ],
+  "zeroed_ids": [
+    "Z01",
+    "Z02",
+    "Z03",
+    "Z04",
+    "Z05",
+    "Z06",
+    "Z07",
+    "Z08",
+    "Z09",
+    "Z10",
+    "Z11",
+    "Z12",
+    "Z13",
+    "Z14",
+    "L04",
+    "L09",
+    "L10"
+  ],
+  "live_count": 7,
+  "highest_living_system": {
+    "id": "L01",
+    "remain": 55.0,
+    "name": "Wood-wide web: hyphal flux \u2192 forest 'communication'",
+    "realm": "land"
+  }
+}

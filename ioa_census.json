@@ -1,0 +1,153 @@
+{
+  "function": "exclusion_path_census + class_leakage_guard",
+  "wood_wide_web": {
+    "process": "wood-wide web resource / warning transfer",
+    "realm": "land",
+    "named_path": "common mycorrhizal network (CMN) as the transport",
+    "alternatives": [
+      {
+        "name": "diffusion through soil water",
+        "ordinary": true,
+        "excluded_in_field": false,
+        "excluded_in_lab": false,
+        "notes": "Karst et al.: dye/isotope movement has equally plausible soil-water path. Field designs rarely include a diffusion-only control at plot scale.",
+        "source": "Nat Ecol Evol 2023 10.1038/s41559-023-01986-1; The Conversation 13 Feb 2023"
+      },
+      {
+        "name": "direct root\u2013root contact",
+        "ordinary": true,
+        "excluded_in_field": false,
+        "excluded_in_lab": false,
+        "notes": "Root grafts and contact are documented. Severing hyphae in pots does not exclude contact in a forest.",
+        "source": "Karst 2023; Conversation 2023"
+      },
+      {
+        "name": "other soil microbes (non-CMN)",
+        "ordinary": true,
+        "excluded_in_field": false,
+        "excluded_in_lab": false,
+        "notes": "Bacteria and saprotrophs move carbon. 'Fungal network' is not isolated by a mesh that other microbes cross.",
+        "source": "Karst 2023"
+      },
+      {
+        "name": "eavesdropping / byproduct volatiles (not a message)",
+        "ordinary": true,
+        "excluded_in_field": false,
+        "excluded_in_lab": false,
+        "notes": "Oxford 2025 model: plants do not 'warn'; neighbours intercept a byproduct. Information-flow sign inverted. Not excluded by isotope movement.",
+        "source": "The Average Scientist 20 Aug 2025 citing 2025 Oxford model"
+      },
+      {
+        "name": "CMN as occasional conduit (not forest-scale web)",
+        "ordinary": false,
+        "excluded_in_field": false,
+        "excluded_in_lab": false,
+        "notes": "The modest remaining claim. Still unquantified at stand scale. Not an ordinary confounder; the residual hypothesis.",
+        "source": "Karst: fungi likely connect trees in many forests; extent unknown"
+      }
+    ],
+    "n_ordinary_unexcluded_field": 4,
+    "n_alternatives": 5,
+    "exclusion_fraction_field": 0.0,
+    "ioa_type_i_holds": true,
+    "verdict": "IOA Type I HOLDS for 'wood-wide web resource / warning transfer': 4 ordinary alternative path(s) remain unexcluded in the field. Named path 'common mycorrhizal network (CMN) as the transport' is therefore not entitled to be the operator.",
+    "runnable_discriminator": "Pre-register a stand-scale design: (i) hyphal-exclusion meshes that block CMN but permit soil-water and microbes; (ii) root-isolation trenches; (iii) volatile-only chambers; (iv) intact CMN. Primary outcome = 13C / 15N movement and seedling survival, frozen before collection. Run in \u22652 biomes. Negative control: randomized mesh assignment with no live hyphae (killed-fungus plots).",
+    "null_of_discriminator": "Isotope movement and survival differences vanish in the hyphal-exclusion condition once soil-water and root-contact are matched. Then CMN is not the operator. IOA Type I closes as 'named path lost'.",
+    "success_of_discriminator": "A residual in the intact-CMN plots survives all three ordinary exclusions, same sign, \u22652 biomes, fails the killed-fungus control. Then IOA was the right question and a CMN operator may exist. Still not 'trees talk'. Still not a mother-tree decision.",
+    "ethics": "existing research forests; no new clearcutting; meshes/trenches at seedling-plot scale"
+  },
+  "k2_18b": {
+    "process": "K2-18b DMS/DMDS named as biosignature",
+    "realm": "space",
+    "named_path": "Earth-DMS-from-marine-life imported as identity onto a spectral wiggle",
+    "alternatives": [
+      {
+        "name": "instrumental offset / retrieval artefact",
+        "ordinary": true,
+        "excluded_in_field": false,
+        "excluded_in_lab": false,
+        "notes": "Seager 2025: signal sensitive to instrumental offset; ~3\u03c3 not 5\u03c3. Taylor 2025: consistent with flat line.",
+        "source": "PNAS 10.1073/pnas.2416188122; arXiv:2504.15916"
+      },
+      {
+        "name": "other sulfur gases sharing spectral features",
+        "ordinary": true,
+        "excluded_in_field": false,
+        "excluded_in_lab": false,
+        "notes": "Seager: attribution may be incorrect; other sulfur gases share features.",
+        "source": "PNAS 2025"
+      },
+      {
+        "name": "abiotic DMS chemistry in H2-rich atmosphere",
+        "ordinary": true,
+        "excluded_in_field": false,
+        "excluded_in_lab": false,
+        "notes": "Even a real DMS detection would not cash the operator 'DMS \u21d2 life'. Abiotic paths unexcluded on a Hycean world.",
+        "source": "Seager 2025 three Key Criteria failure #3"
+      },
+      {
+        "name": "model-comparison artefact (11-species vs 10-species reference)",
+        "ordinary": true,
+        "excluded_in_field": false,
+        "excluded_in_lab": false,
+        "notes": "Tentative detection is a preference of a 5-biosignature reference model vs 4. Not a spectral line detection.",
+        "source": "PNAS 2025 \u00a72"
+      }
+    ],
+    "n_ordinary_unexcluded_field": 4,
+    "n_alternatives": 4,
+    "exclusion_fraction_field": 0.0,
+    "ioa_type_i_holds": true,
+    "verdict": "IOA Type I HOLDS for 'K2-18b DMS/DMDS named as biosignature': 4 ordinary alternative path(s) remain unexcluded in the field. Named path 'Earth-DMS-from-marine-life imported as identity onto a spectral wiggle' is therefore not entitled to be the operator.",
+    "runnable_discriminator": "Independent reduction with pre-registered: (1) robustness to offset treatment, (2) nested models that do not privilege biosignature gases, (3) abiotic sulfur chemistry grid, (4) 5\u03c3 line criterion. NASA-led arXiv:2507.12622 is the live test (~2.7\u03c3).",
+    "null_of_discriminator": "Feature consistent with flat line or with abiotic sulfur. Identity-import fails. IOA Type II closes as 'name was doing the work'.",
+    "success_of_discriminator": "5\u03c3 feature, abiotic grid excluded, offset-robust. Still NOT life \u2014 only a molecule. Life remains a further operator.",
+    "ethics": "telescope time already allocated; no new claim of contact"
+  },
+  "leakage_guards": [
+    {
+      "assigned": "IOA",
+      "ioa_allowed": true,
+      "name": "wood-wide web hypha\u2192forest"
+    },
+    {
+      "assigned": "IOA",
+      "ioa_allowed": true,
+      "name": "K2-18b DMS identity-import"
+    },
+    {
+      "assigned": "IOA",
+      "ioa_allowed": true,
+      "name": "cryptochrome in-vitro \u2192 heading"
+    },
+    {
+      "assigned": "JAC",
+      "ioa_allowed": false,
+      "name": "JAC geodynamo \u22c8 tracks (negative control)"
+    },
+    {
+      "assigned": "undersampling",
+      "ioa_allowed": false,
+      "name": "seafloor mapped vs seen (negative control)"
+    },
+    {
+      "assigned": "FAC",
+      "ioa_allowed": false,
+      "name": "Hubble JWST settler (negative control)"
+    }
+  ],
+  "primary_after_census": {
+    "process": "wood-wide web resource / warning transfer",
+    "ioa_type_i_holds": true,
+    "ordinary_unexcluded": 4,
+    "exclusion_fraction_field": 0.0,
+    "assigned_class": "IOA"
+  },
+  "k2_18b_after_census": {
+    "ioa_type_i_holds": true,
+    "ordinary_unexcluded": 4,
+    "assigned_by_guard": "IOA",
+    "note": "Guard routes to NCR/IM because named cause (DMS) is insufficient. Engine keeps Type II IOA as penalized remainder. Not primary."
+  },
+  "negative_controls_ok": true
+}
